@@ -1,0 +1,15 @@
+D:\kombinatorikaANDgrafi\Dinica\bin\Debug\net8.0\Dinica.exe
+D:\kombinatorikaANDgrafi\Dinica\bin\Debug\net8.0\Dinica.deps.json
+D:\kombinatorikaANDgrafi\Dinica\bin\Debug\net8.0\Dinica.runtimeconfig.json
+D:\kombinatorikaANDgrafi\Dinica\bin\Debug\net8.0\Dinica.dll
+D:\kombinatorikaANDgrafi\Dinica\bin\Debug\net8.0\Dinica.pdb
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.GeneratedMSBuildEditorConfig.editorconfig
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.AssemblyInfoInputs.cache
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.AssemblyInfo.cs
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.csproj.CoreCompileInputs.cache
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.sourcelink.json
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.dll
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\refint\Dinica.dll
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.pdb
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\Dinica.genruntimeconfig.cache
+D:\kombinatorikaANDgrafi\Dinica\obj\Debug\net8.0\ref\Dinica.dll
