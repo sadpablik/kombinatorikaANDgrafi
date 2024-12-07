@@ -93,18 +93,32 @@ public class Program
 {
     public static void Main()
     {
-        Dinic dinic = new Dinic(6);
+        // Пример 1: Простой граф
+        Dinic dinic1 = new Dinic(4);
+        dinic1.AddEdge(0, 1, 10);
+        dinic1.AddEdge(0, 2, 5);
+        dinic1.AddEdge(1, 3, 5);
+        dinic1.AddEdge(2, 3, 10);
+        Console.WriteLine("Maximum Flow (Simple Graph): " + dinic1.MaxFlow(0, 3)); // Expected: 10
 
-        // Добавление рёбер: (u, v, capacity)
-        dinic.AddEdge(0, 1, 10);
-        dinic.AddEdge(0, 2, 10);
-        dinic.AddEdge(1, 3, 4);
-        dinic.AddEdge(1, 4, 8);
-        dinic.AddEdge(2, 4, 9);
-        dinic.AddEdge(3, 5, 10);
-        dinic.AddEdge(4, 5, 10);
+        // Пример 2: Сложный граф
+        Dinic dinic2 = new Dinic(6);
+        dinic2.AddEdge(0, 1, 10);
+        dinic2.AddEdge(0, 2, 10);
+        dinic2.AddEdge(1, 3, 4);
+        dinic2.AddEdge(1, 4, 8);
+        dinic2.AddEdge(2, 4, 9);
+        dinic2.AddEdge(3, 5, 10);
+        dinic2.AddEdge(4, 5, 10);
+        Console.WriteLine("Maximum Flow (Complex Graph): " + dinic2.MaxFlow(0, 5)); // Expected: 14
 
-        // Нахождение максимального потока из 0 в 5
-        Console.WriteLine("Maximum Flow: " + dinic.MaxFlow(0, 5)); // Output: Maximum Flow: 19
+        // Пример 3: Циклический граф
+        Dinic dinic3 = new Dinic(5);
+        dinic3.AddEdge(0, 1, 10);
+        dinic3.AddEdge(1, 2, 5);
+        dinic3.AddEdge(2, 3, 5);
+        dinic3.AddEdge(3, 1, 5);
+        dinic3.AddEdge(3, 4, 5);
+        Console.WriteLine("Maximum Flow (Cyclic Graph): " + dinic3.MaxFlow(0, 4)); // Expected: 10
     }
 }

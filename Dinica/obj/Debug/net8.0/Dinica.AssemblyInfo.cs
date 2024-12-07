@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dinica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb705801e52b60dd3365cb049d47e8aeb0992b3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9b9188b15ca214435bb85c8ed402a60a240f86d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dinica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dinica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
